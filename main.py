@@ -56,7 +56,7 @@ def main(module: Callable):
                 time.sleep(random.randint(THREAD_SLEEP_FROM, THREAD_SLEEP_TO))
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':,
     _read_env()
     logger.add('logging.log')
     module = get_module()
